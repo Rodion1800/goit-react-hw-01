@@ -13,7 +13,7 @@ export default function App() {
     <>
       <UserProfile user={UserData} />
       <FriendsListItem friends={friends} />
-      <TransactionList transactions={transactions} />
+      <TransactionList items={transactions} />
     </>
   );
 }
